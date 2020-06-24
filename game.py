@@ -47,7 +47,7 @@ def d_c(p_p,p_s):
 	
 def uvp(v_l, score):
 	for idx, vi_ovre in enumerate(v_l):
-		if vi_ovre[1] >= 0 and vi_ovre[1] < HEIGHT:
+		if vi_ovre[1] >= 0 and vi_ovre[1] < h:
 			vi_ovre[1] += SPEED
 		else:
 			v_l.pop(idx)
